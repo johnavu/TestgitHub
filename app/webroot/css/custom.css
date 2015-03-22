@@ -1,0 +1,297 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 24, 2014, 10:29:56 AM
+    Author     : John
+*/
+@import "set2.css";
+@import "set1.css";
+body{
+    background: url('../img/bg.png') repeat;
+}
+#header{
+    //height: 60px;
+
+    margin-top: 60px;
+    position: relative;
+    background-color: white;
+    box-shadow: 0px 2px 5px #888888;
+}
+#logo{
+    background: url("../img/logo.png") no-repeat top right;
+    height: 119px;
+    width: 120px;
+
+    margin: 0px;
+    position:absolute;
+    top:-30px;
+    left:10%;
+
+}
+#navbar{
+    font-size: 1.6em;
+    position: relative;
+    left:20%;
+    top:30%;
+    margin-top: auto;
+    margin-bottom: auto;
+
+
+
+}
+
+.navbar-header{
+    height: 60px;
+}
+#social{
+    position:relative;
+    top:25%;
+    left:130px;
+}
+#navbar ul li a:hover{
+    text-decoration: none;
+    color:#ac2925;
+}
+
+/* jssor slider arrow navigator skin 21 css */
+/*
+.jssora21l              (normal)
+.jssora21r              (normal)
+.jssora21l:hover        (normal mouseover)
+.jssora21r:hover        (normal mouseover)
+.jssora21ldn            (mousedown)
+.jssora21rdn            (mousedown)
+*/
+.jssora21l, .jssora21r, .jssora21ldn, .jssora21rdn
+{
+    position: absolute;
+    cursor: pointer;
+    display: block;
+    background: url(../img/a21.png) center center no-repeat;
+    overflow: hidden;
+
+}
+.jssora21l { background-position: -3px -33px; }
+.jssora21r { background-position: -63px -33px; }
+.jssora21l:hover { background-position: -123px -33px; }
+.jssora21r:hover { background-position: -183px -33px; }
+.jssora21ldn { background-position: -243px -33px; }
+.jssora21rdn { background-position: -303px -33px; }
+#post-content{
+
+
+    margin: 0 auto;
+}
+.posts{
+    margin-bottom: 20px;
+    width: 350px;
+    height: 350px;
+
+    -webkit-box-shadow: 4px 5px 3px #ccc;
+    -moz-box-shadow: 4px 5px 3px #ccc;
+    box-shadow: 4px 5px 3px #ccc;
+
+}
+.grid figure figcaption h2{
+    font-size: 20px;
+    text-align: left;
+    float: left;
+    display: block;
+    width: 350px;
+}
+.grid figure {
+    margin: 0px;
+}
+.paginator{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    width: 30%;
+    margin: 5px auto;
+    padding: 5px 0;
+    background: rgb(184,225,252); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(184,225,252,1) 0%, rgba(169,210,243,1) 49%, rgba(144,191,240,1) 50%, rgba(169,210,243,1) 51%, rgba(144,186,228,1) 52%, rgba(144,188,234,1) 54%, rgba(162,218,245,1) 94%, rgba(189,243,253,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(184,225,252,1)), color-stop(49%,rgba(169,210,243,1)), color-stop(50%,rgba(144,191,240,1)), color-stop(51%,rgba(169,210,243,1)), color-stop(52%,rgba(144,186,228,1)), color-stop(54%,rgba(144,188,234,1)), color-stop(94%,rgba(162,218,245,1)), color-stop(100%,rgba(189,243,253,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(184,225,252,1) 0%,rgba(169,210,243,1) 49%,rgba(144,191,240,1) 50%,rgba(169,210,243,1) 51%,rgba(144,186,228,1) 52%,rgba(144,188,234,1) 54%,rgba(162,218,245,1) 94%,rgba(189,243,253,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(184,225,252,1) 0%,rgba(169,210,243,1) 49%,rgba(144,191,240,1) 50%,rgba(169,210,243,1) 51%,rgba(144,186,228,1) 52%,rgba(144,188,234,1) 54%,rgba(162,218,245,1) 94%,rgba(189,243,253,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(184,225,252,1) 0%,rgba(169,210,243,1) 49%,rgba(144,191,240,1) 50%,rgba(169,210,243,1) 51%,rgba(144,186,228,1) 52%,rgba(144,188,234,1) 54%,rgba(162,218,245,1) 94%,rgba(189,243,253,1) 100%); /* IE10+ */
+    background: linear-gradient(to bottom, rgba(184,225,252,1) 0%,rgba(169,210,243,1) 49%,rgba(144,191,240,1) 50%,rgba(169,210,243,1) 51%,rgba(144,186,228,1) 52%,rgba(144,188,234,1) 54%,rgba(162,218,245,1) 94%,rgba(189,243,253,1) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8e1fc', endColorstr='#bdf3fd',GradientType=0 ); /* IE6-9 */
+
+
+}
+.category{
+
+    font-size: 2em;
+    margin-top:20px;
+    position: relative;
+
+
+    text-align: center;
+}
+.category ul{
+    position: relative;
+    top:25%;
+}
+.category ul li a{
+    text-decoration: none;
+    color: #ccc;
+    cursor: pointer;
+}
+.category ul li a:hover{
+    color: #d43f3a;
+}
+.category ul li a.choose{
+    color: #d43f3a;
+}
+.paginator a{
+
+    padding: 5px 10px;
+    color: #ffffff;
+    font-size: 14px;
+
+}
+.paginator a:hover{
+    background-color: #4388A7;
+    text-decoration: none;
+
+
+
+}
+
+.sibar {
+   
+    color: #FFFFFF;
+    margin-bottom: 60px;
+    
+}
+#sibar{
+    box-shadow: 0px 3px 2px #ccc;
+}
+.sibar h3{
+   color: #000000;
+   text-align: left;
+   padding-bottom: 5px;
+  
+}
+.sibar ul{
+    padding:0px;
+}
+.sibar ul li{
+    list-style: none;
+}
+.sibar ul li a{
+   color: #000000;
+   text-align: left;
+   font-size:20px;
+  
+}
+.sibar ul li a:hover{
+   color: #ac2925;
+   text-decoration: none;
+  
+}
+#searchbox{
+    position: absolute;
+    top:20px;
+    
+}
+.paginator a.active {
+    background-color: #4388A7;
+}
+#main{
+    background-color: #ffffff;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 5px #888888;
+}
+#slider{
+    width: 100%;
+    padding-top: 25px;
+}
+.contentSlides{
+    position: absolute;
+    top:10px;
+    left:50px;
+    width: 500px;
+    height: 200px;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: serif;
+}
+.titleSlides{
+
+    padding: 5px;                      
+    text-align: center; 
+    text-transform: capitalize; 
+    font-size: 25px;                 
+    color: #FFFFFF;
+
+}
+.excepSlides{
+    background: rgba(0,0,0,0.5);
+    padding: 5px;                        
+    text-align: left; 
+    font-style:inherit;
+    font-size: 15px;                       
+    color: #FFFFFF;
+    text-align: justify;
+    max-height: 150px;
+
+
+}
+.buttonSdiles{
+    position: relative; 
+
+    top: 10px; 
+
+    padding: 5px;
+    text-align: left; 
+
+
+
+}
+.footer{
+    margin-top: 60px;
+    text-align: right;
+}
+.search{
+    padding: 0px;
+}
+.searchbutton{
+    padding: 5px;
+
+}
+.tags span a{
+    color:#000000;
+}
+.tags span a:hover{
+    color: #d43f3a;
+    text-decoration: none;
+}
+.tags span{
+    padding: 1px;
+}
+.tags span.s1{
+    font-size:1.5em;
+}
+.tags span.s2{
+    font-size:2em;
+}
+.tags span.s3{
+    font-size:2.5em;
+}
+
+@media (max-width:767px){
+    #navbar{
+        font-size: 1.6em;
+        position: relative;
+        text-align: right;
+        top:30%;
+        left:0px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+}
